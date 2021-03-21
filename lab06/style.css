@@ -1,8 +1,6 @@
-<head>
 
-    {font-family:Georgia, 'Times New Roman', Times, serif;} 
-    h1,h2 {color:#237c4a}
-    .evenrow{color:darkmagenta}
-    h1{font-size: 6em;}
+    {font-family: Georgia, 'Times New Roman', Times, serif;} 
+    h1,h2 {color:green}
+    .evenrow{background-color: rgb(248, 153, 248)}
+    h1{font-size: .5em;}
      
-<head>
