@@ -1,0 +1,40 @@
+ h1{
+     color: #ff0000; 
+     /* hex color requires the pund sign */
+     /* six digits starting with red, then green then blue */
+ }
+
+ a:link{
+     color: #00ff00;
+ }
+
+ a:visited {
+     color: #0000ff
+ }
+
+ a:hover{
+     color: #8000ff;
+     background: #00eeff;
+ }
+
+ .lookdifferent:hover {color: #999}
+/* above uses a class selector with the psuedo state */
+
+body{
+    background-image: url(ist263/Images/Linkedinimagecopy.png);
+    background-color: #c9c9ab
+}
+/* background color for entire page */
+
+p{
+    background-color: #ffffff;
+    padding: 20px;
+    /*space between contet and edge of box*/
+    margin: 50px;
+    /* space between the outside of the box and the rest of the content */
+    border: 5px solid #0000ff
+    /* this is a combo value ^^ */
+    /* width of your box is content width*/
+}
+
+
