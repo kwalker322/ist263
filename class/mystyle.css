@@ -34,7 +34,7 @@ p{
     /* space between the outside of the box and the rest of the content */
     border: 5px solid #0000ff
     /* this is a combo value ^^ */
-    /* width of your box is content width*/
+    /* width of your box is content width plus border with x2 plus margin width x2, plus padding width x2 */
 }
 
 
