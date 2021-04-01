@@ -23,3 +23,6 @@ body{
     background-color: #f0f8ff;
     color:#972363
 }
+.quote{
+    float: right;
+}
