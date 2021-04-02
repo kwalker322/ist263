@@ -11,12 +11,13 @@ a:hover{
 }
 
 h1{
-    color:#f78cc7
+    color:#f78cc7;
+    font-size: 40px
 }
 
 h2{
-   
     color: #2a95d3;
+    font-size: 30px;
     
 }
 body{
@@ -34,3 +35,42 @@ img{
 .clear{clear: both;
 
 }
+.address {float: left;
+    margin: 0px 20px 10px 0px;
+
+}
+
+.email{ float:left;
+    margin: 0px 20px 10px 0px;}
+
+.linkeidn{ float: left;
+    margin: 0px 20px 10px 0px;}
+
+
+
+.form{
+
+    border-left: 0px 20px 10px 0px;
+    padding: 5em
+}
+
+.part1{
+    padding: 40px;
+    background-color: lightgray;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 600px;
+    border-radius: 25px;
+}
+
+.part2{
+    display: flex;
+    padding: 80px;
+    background-color: lightgray;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-right: 50px;
+    border-radius: 1em;
+}
+
+
