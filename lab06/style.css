@@ -1,7 +1,9 @@
 
-    body{font-family: Georgia, 'Times New Roman', Times, serif;} 
+    body{font-family: Georgia, 'Times New Roman', Times, serif;
+        color:rgb(43, 90, 59);
+    } 
     h1,h2 {color:rgb(26, 124, 26)}
-    .evenrow{background-color: rgb(153, 186, 248)}
+    .evenrow{background-color: rgb(208, 224, 253)}
     h1{font-size: 3em;}
     h2{font-size:2em;}
      
