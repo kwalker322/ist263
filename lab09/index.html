@@ -8,17 +8,35 @@
    
    <style>
        .image {max-width: 100%;}
+       
+       #skipbutton {
+                position: absolute;
+                left: -99px;
+                background-color: white;
+                border: 1px solid black;
+            }
+
+            #skipbutton:focus{
+                position: absolute;
+                left: 10px;
 
 
     </style>
 </head>
 <body>
-    <nav><a href="https://kwalker322.github.io/ist263/lab01/walker-bio.html">home</a> <span class="span">|</span> <a href="https://kwalker322.github.io/ist263/lab04/skills.html">skills</a> <span class="span">|</span> <a href="contactt.html">contact</a></nav>
+
+    <a id="skipbutton" href="#maincontent">Skip to content</a>
+
+    <nav><a href="https://kwalker322.github.io/ist263/lab01/walker-bio.html" tabindex="1">home</a> <span class="span">|</span> <a href="https://kwalker322.github.io/ist263/lab04/skills.html" tabindex="2">skills</a> <span class="span">|</span> <a href="contactt.html" tabindex="3">contact</a></nav>
    
     <h1>Kate Walker Bio</h1>
     <img class="image" src= "../Images/unnamed.png" alt="selfimage">
+
+    
   
     <h2>About Me</h2>
+
+    <a id="maincontent"></a>
 
     <main>
     <p> Currently, I am a dual major with Information Management and Technology and Advertising with a minor in Sociology. I am interested in the environment and different cultures and promoting a more sustainable and mindful lifestyle through the use of technology and advertising. Some accomplishment and skills of mine is I love field hockey and tennis and received the MVP award for my field hockey team in high school. Outside of work, I enjoy being outside, whether it be on the beach or taking my dogs for a walk on the river in my town. I also love yoga and when I am home, I try go as much as possible. Some unique personal history is my family is originally from South Africa and we go back every year to see them. I was also born in Sydney, Australia and have three citizenships: South African, Australian, and American.</p>

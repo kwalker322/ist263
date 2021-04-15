@@ -1,7 +1,7 @@
 nav{
     background-color: #ace7ac;
-    padding: 2em;
-    margin-bottom: 40px;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 a{
     color:#e77b49
@@ -12,7 +12,7 @@ a:hover{
 
 h1{
     color:#f78cc7;
-    font-size: 40px
+    font-size: 60px
 }
 
 h2{
@@ -78,15 +78,13 @@ img{
 nav a {
     display: block;
     width: 100%;
-    padding: 3em;
+    padding: 4px;
 }
 
 
 .span {
     display: none;
 }
-
-
 
 
 
