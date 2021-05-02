@@ -15,56 +15,65 @@ a{
 a:hover{
     color:green;
 }
+
 .introtext{
     margin-left:6em;
     margin-right:6em;
     margin-top:3em;
     text-align: center;
+    margin-bottom:4em;
     
 }
 body{
     font-family: georgia, serif;
+    background-color: rgb(228, 255, 228);
 }
 
 .breakfasthomeimg{
-    box-sizing: border-box;
-    max-width:27%;
-    float: left;
-    margin-left: 2em;
-    margin-top: 6em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
 
+    
+}
+
+.bfastintro{
+    display: block;
+    margin-left: 31em;
+    margin-right: auto;
+    padding:2em;
+    font-size:19px;
+    font-weight: bold;
     
 }
 
 
 
-.lunchhomeimg{
-    max-width: 33.5%;
-    box-sizing: border-box;
-    margin-left: 5.5em;
-    margin-top: 6em;
-   
 
-    
-}
-.dinnerhomeimg{
-    max-width: 22.3%;
-    box-sizing: border-box;
-    float: right;
-    margin-right: 2em;
-    margin-top: 6em;
-    
-}
 .dormcookingimg{
-    padding: 6em;
-    margin-left:25.8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    margin-bottom: 2em
+}
+
+.dormintro{
+    display: block;
+    margin-left: 27em;
+    margin-right: auto;
+    padding:2em;
+    font-size:19px;
+    font-weight: bold;
 }
 
 .aboutmeimg{
     padding: 4em;
     max-width: 30%;
     flex:1;
-    margin:auto;
+    
    
 }
 
@@ -88,34 +97,163 @@ body{
     flex:1;
 }
 
+
+
+h2{
+    margin-top:1.5em;
+}
 h3{
     margin-left: 10em;
-  
+    margin-top:3em;
 }
+
+
 .oatmealbfast{
-    margin-left:10em;
+    float:left;
+    padding:4em;
+    margin-left:5em;
+
 }
+
+.oatmealdirections{
+    padding:12em;
+    
+}
+
+
 
 .oatmealtxt{
    
     padding: 2em;
-    margin-left:9em;
-    margin-right: 34em;
+    margin-left:8em;
+
 }
 
 
 
-.email{ 
+.potatohashbfast{
+    max-width: 32%;
+    margin-left: 5em;
+    padding:4em;
     float:left;
-    flex:1;
-    max-width: 20%;
+}
+.potatotxt{
+    margin-left:8.3em;
+    padding:2em;
 }
 
+.potatodirections{
+  margin-top:7em;
+
+}
+
+.pancakebfast{
+    float:left;
+    padding:4em;
+    margin-left: 3em;
+
+    
+}
+
+.pancakedirections{
+    padding:5em;
+    
+}
+
+.clear{
+    clear:both;
+}
+
+
+
+.pancaketxt{
+    margin-left:8.5em;
+    padding:2em;
+}
+
+.dormintro{
+    margin-left:6em;
+    margin-right:6em;
+    margin-top:3em;
+    text-align: center;
+    margin-bottom:4em;
+}
+
+.electricpan{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 2em
+    
+}
+
+
+
+.kettle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    margin-bottom: 2em
+}
+
+.cuttingboard{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    margin-bottom: 2em
+}
+
+.blender{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    margin-bottom: 2em
+}
+
+.airfryers{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    margin-bottom: 2em
+}
+
+.toasteroven{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    margin-bottom: 2em
+}
+
+.griddle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    margin-bottom: 2em
+}
+
+.kureig{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    margin-bottom: 2em
+}
+.footer{
+    display: flex;
+}
+.email{
+    width: 70px;
+}
 .linkedin{
-    max-width: 20%;
-    flex:1;
-    float:left;
-
+    width: 50px;
 }
+
 
 
