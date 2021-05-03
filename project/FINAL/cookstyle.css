@@ -12,6 +12,7 @@ nav{
 a{
     color:black;
 }
+
 a:hover{
     color:green;
 }
@@ -22,8 +23,22 @@ a:hover{
     margin-top:3em;
     text-align: center;
     margin-bottom:4em;
+}
+
+ #skipbutton{
+    position: absolute;
+    left: -99px;
+    background-color: white;
+    border: 1px solid black;
+}
+    
+#skipbutton{
+    position:absolute;
+    left:10px;
     
 }
+
+
 body{
     font-family: georgia, serif;
     background-color: rgb(228, 255, 228);
@@ -69,19 +84,32 @@ body{
     font-weight: bold;
 }
 
+
 .aboutmeimg{
     padding: 4em;
     max-width: 30%;
     flex:1;
+
+        
     
-   
 }
+
 
 .aboutme{
     flex:1;
     display:flex;
     flex:1;
 }
+
+@media only screen and (max-width: 100%){
+    .aboutmeimg{
+        max-width: 100%;
+        width:500px
+    }
+    
+}
+
+
 .aboutmetext{
     flex-wrap:wrap;
     padding: 2em;
