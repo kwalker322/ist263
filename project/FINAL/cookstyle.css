@@ -4,13 +4,17 @@ h1{
 }
 h2{
     text-align: center;
-    margin-bottom: 4em;
 }
 nav{
     text-align: center;
+    
+}
+
+.bannerheading{
+    max-width:20%;
 }
 a{
-    color:black;
+    color:rgb(8, 56, 11);
 }
 
 a:hover{
@@ -25,18 +29,25 @@ a:hover{
     margin-bottom:4em;
 }
 
- #skipbutton{
-    position: absolute;
-    left: -99px;
-    background-color: white;
-    border: 1px solid black;
-}
+ 
     
 #skipbutton{
     position:absolute;
     left:10px;
+    visibility: hidden;
+   
+}
+
+#skipbutton:focus{
+
+    position: absolute;
+    left: 10px;
+   
     
 }
+
+    
+
 
 
 body{
@@ -56,11 +67,10 @@ body{
 
 .bfastintro{
     display: block;
-    margin-left: 31em;
-    margin-right: auto;
     padding:2em;
     font-size:19px;
     font-weight: bold;
+    text-align: center;
     
 }
 
@@ -81,13 +91,13 @@ body{
     margin-right: auto;
     padding:2em;
     font-size:19px;
-    font-weight: bold;
 }
 
 
 .aboutmeimg{
     padding: 4em;
     max-width: 30%;
+    height: 100%;
     flex:1;
 
         
@@ -131,8 +141,8 @@ h2{
     margin-top:1.5em;
 }
 h3{
-    margin-left: 10em;
-    margin-top:3em;
+    margin-left: 8em;
+    margin-top:8em;
 }
 
 
@@ -140,38 +150,51 @@ h3{
     float:left;
     padding:4em;
     margin-left:5em;
+    max-width: 30%;
 
 }
 
 .oatmealdirections{
-    padding:12em;
+   padding:4em;
+   margin-top:10em;
+    border-radius: 9em;
+    background-color: rgb(255, 144, 80);
+    margin-left:38em;
+    padding:4em;
+   
     
 }
 
 
 
 .oatmealtxt{
-   
-    padding: 2em;
-    margin-left:8em;
+
+    margin-left:9em;
 
 }
 
 
 
 .potatohashbfast{
-    max-width: 32%;
+    max-width: 30%;
     margin-left: 5em;
     padding:4em;
     float:left;
 }
 .potatotxt{
-    margin-left:8.3em;
-    padding:2em;
+    margin-left:9em;
+   
+    
 }
 
 .potatodirections{
-  margin-top:7em;
+  margin-top:6em;
+    border-radius: 9em;
+    background-color: rgb(255, 144, 80);
+     margin-left:37em;
+     padding:4em;
+    
+  
 
 }
 
@@ -179,12 +202,19 @@ h3{
     float:left;
     padding:4em;
     margin-left: 3em;
+    max-width:30%;
+    
 
     
 }
 
 .pancakedirections{
-    padding:5em;
+    margin-top:4em;
+    border-radius: 9em;
+    background-color: rgb(255, 144, 80);
+     margin-left:37em;
+     padding:4em;
+    
     
 }
 
@@ -195,83 +225,159 @@ h3{
 
 
 .pancaketxt{
-    margin-left:8.5em;
-    padding:2em;
+    margin-left:9.5em;
+    
 }
 
 .dormintro{
     margin-left:6em;
     margin-right:6em;
-    margin-top:3em;
     text-align: center;
-    margin-bottom:4em;
-}
-
-.electricpan{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-bottom: 2em
+    font-size: 1em;
     
 }
 
 
 
-.kettle{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33%;
-    margin-bottom: 2em
+.mainflexbox{
+    display:flex;
 }
+
+
+.electricpan{
+    display: block;
+    max-width:70%;
+    margin-left:5em;
+    padding:2em;
+ 
+    
+}
+
+.electricpantxt{
+    margin-left:7em;
+    margin-right:5em;
+    border-radius: 9em;
+    background-color: rgb(255, 144, 80);
+    padding:1.5em;
+
+}
+
+
+
+.kettle{
+    flex:2;
+    display: block;
+    width: 50%;
+    margin-left:5em;
+    padding:2em;
+    
+}
+
+.kettletxt{
+    margin-left:7em;
+    margin-right:5em;
+    border-radius: 9em;
+    background-color: rgb(255, 144, 80);
+    padding:1.5em;
+}
+
 
 .cuttingboard{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33%;
-    margin-bottom: 2em
+    width: 45%;
+    padding:2em;
+    margin-left:5em;
+}
+
+.cuttingboardtxt{
+    margin-left:7em;
+    margin-right:5em;
+    border-radius: 9em;
+    background-color: rgb(255, 144, 80);
+    padding:1.5em;
 }
 
 .blender{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33%;
-    margin-bottom: 2em
+    width: 60%;
+    padding:2em;
+    margin-left:5em;
+
+}
+
+.blendertxt{
+    margin-left:7em;
+    margin-right:5em;
+    border-radius: 9em;
+    background-color: rgb(255, 144, 80);
+    padding:1.5em;
+
 }
 
 .airfryers{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33%;
-    margin-bottom: 2em
+    width: 50%;
+    margin-left:6em;
+    margin-top:0em;
+    padding:2em;
+  
+}
+
+.airfryertxt{
+    margin-left:8em;
+    margin-right:5em;
+    border-radius: 9em;
+    background-color: rgb(255, 144, 80);
+    padding:1.5em;
+  
 }
 
 .toasteroven{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33%;
-    margin-bottom: 2em
+    width: 70%;
+    padding:2em;
+    margin-top:5em;
+    margin-left:4em;
+}
+
+.toasteroventxt{
+    margin-left:6em;
+    margin-right:5em; border-radius: 9em;
+    background-color: rgb(255, 144, 80);
+    padding:2em;
 }
 
 .griddle{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33%;
-    margin-bottom: 2em
+    width: 55%;
+    margin-top:6em;
+    margin-left:4em;
+    padding:2em;
+    
+}
+
+.griddletxt{
+    margin-left:6em;
+    margin-right:5em;
+    border-radius: 9em;
+    background-color: rgb(255, 144, 80);
+    padding:2em;
 }
 
 .kureig{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33%;
-    margin-bottom: 2em
+    width: 54%;
+    padding:2em;
+    margin-top:2.5em;
+    margin-left:4em;
+}
+
+.kureigtxt{
+    margin-left:6em;
+    margin-right:5em;
+    border-radius: 9em;
+    background-color: rgb(255, 144, 80);
+    padding:1.5em;
 }
 .footer{
     display: flex;
