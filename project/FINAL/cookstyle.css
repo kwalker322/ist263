@@ -31,15 +31,14 @@ a:hover{
 
  
     
-#skipbutton{
-    position:absolute;
-    left:10px;
-    visibility: hidden;
-   
+#skipbutton {
+    position: absolute;
+    left: -99px;
+    background-color: white;
+    border: 1px solid black;
 }
 
 #skipbutton:focus{
-
     position: absolute;
     left: 10px;
    
